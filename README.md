@@ -1,5 +1,6 @@
 # Netiny
 Netiny is a basic network capture tool.<br>
+It allows you to observe what is happening on the network, without thoroughly analyzing the protocols used<br>
 Written in **Python3.9** with raw sockets, it allows **low-level management of network protocols**.<br>
 <br>
 Netiny is easily modifiable, so as to allow any implementation of network protocols.<br>
