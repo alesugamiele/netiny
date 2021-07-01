@@ -1,10 +1,10 @@
 # Netiny
-Netiny is a basic network capture tool.
-Written in **Python3.9** with raw sockets, it allows **low-level management of network protocols**.
-
-Netiny is easily modifiable, so as to allow any implementation of network protocols.
-For the moment the supported protocols are the following:
-
+Netiny is a basic network capture tool.<br>
+Written in **Python3.9** with raw sockets, it allows **low-level management of network protocols**.<br>
+<br>
+Netiny is easily modifiable, so as to allow any implementation of network protocols.<br>
+For the moment the supported protocols are the following:<br>
+<br>
 **Ethernet**
 ```python
 {
