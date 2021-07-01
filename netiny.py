@@ -80,7 +80,7 @@ class Capture:
 
 	def stop(self) -> None:
 		self.network_socket.close()
-		__import__("sys").exit(0)
+		sys.exit(0)
 
 if __name__ == "__main__":
 	show_http_packets = False
@@ -98,7 +98,7 @@ Usage: {sys.argv[0]} [Options]
 http: Show all HTTP requests
 -b --block: Not show a specified protocol. ex. -b=tcp
 """)
-			__import__("sys").exit(0)
+			sys.exit(0)
 
 	Capture(
 		show_http = show_http_packets,
